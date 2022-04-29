@@ -541,55 +541,10 @@ footer{
 }
 
 /* media for Ipad and tablet devices */
-@media  (max-device-width: 822px) {
+@media  (max-width: 822px) {
     .home{
         background: url("./fortablet.jpg") no-repeat center;
 
-    }
-}
-
-/* media for mobile device */
-@media  (max-device-width: 768px) {
-    .overlay-content{
-        display: block;   
-     }
-    .TTT{
-        display: table-column;
-        color: white;
-    }
-    .navbar .menu li a{
-        display: none;
-    }
-    .sizing{
-        padding: 0 23px;
-    }
-    .home{
-        background-position: right;
-    }
-    .home .home-content .text-2{
-        font-size: 60px;
-    }
-    .home .home-content .text-3{
-        font-size: 32px;
-    }
-    .home .home-content a{
-        font-size: 60px;
-    }
-    .about .about-content .column {
-        width: 100%;
-    }
-    .about .about-content .left{
-        display: flex;
-        justify-content: center;
-        margin: 0 auto 60px;
-    }
-    .about .about-content .right{
-        flex: 100%;
-    }
-    .skills .skills-content .column,
-    .contact .contact-content .column{
-        width: 100%;
-        margin-bottom: 35px;
     }
 }
 
